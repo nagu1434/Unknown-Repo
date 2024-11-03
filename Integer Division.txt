@@ -1,0 +1,9 @@
+
+# Input: a single integer X
+X = int(input())
+
+# Calculate the floor of X divided by 10
+result = X // 10
+
+# Output the result
+print(result)
