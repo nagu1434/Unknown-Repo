@@ -1,0 +1,10 @@
+# Read input
+num = int(input().strip())
+
+# Find the digital root
+if num == 0:
+    result = 0
+else:
+    result = 1 + (num - 1) % 9
+
+print(result)
